@@ -1,0 +1,7 @@
+run_id,config,algorithm,seed,phase,mean_return,survival_rate,intensity_tax,n_episodes,train_steps,wall_clock_s,notes
+1,A,Random,0,test,0.587325,0.69,0.102675,1000,0,0.0,provided baseline
+2,A,ValueIteration,0,test,0.75319,0.796,0.04281,500,237,1.02,
+3,A,Q-learning,42,test,0.609825,0.685,0.075175,200,50000,0.0,
+4,A,SARSA,42,test,0.58035,0.65,0.06965,200,50000,0.0,
+5,A,Double-Q,42,test,0.60085,0.665,0.06415,200,50000,0.0,
+6,B,Random,0,test,0.575175,0.665,0.089825,1000,0,0.0,provided baseline (harder: wrappers active)
